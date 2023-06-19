@@ -15,7 +15,7 @@ Esta API contém as seguintes rotas:
 - `POST /veiculos` : cria um novo veiculo
 - `DELETE /veiculos/:id` : apaga o veiculo com ID :id
 
-Para filtrar as ferramentas em `GET /veiculos`, é possível:
+Para filtrar os veiculos em `GET /veiculos`, é possível:
 
 - fazer uma busca global utilizando a query string `?q=:busca`;
 - fazer uma busca por placas individuais utilizando a query string `?placa=:busca`.
